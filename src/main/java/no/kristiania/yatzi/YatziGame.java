@@ -6,6 +6,8 @@ public class YatziGame {
         for (int die: dice) {
             if (die == 1) {
                 result += 1;
+            } else if (die == 2) {
+                result += 2;
             }
         }
         return result;
